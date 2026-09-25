@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "cobrain": { "type": "http", "url": "https://cobrain.space/mcp" }
+  }
+}

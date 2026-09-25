@@ -1,0 +1,10 @@
+{
+  "name": "cobrain",
+  "version": "1.0.0",
+  "description": "One memory for all your AIs: a persistent Markdown brain that Claude reads and writes through MCP.",
+  "author": { "name": "Cobrain", "email": "hi@cobrain.space", "url": "https://cobrain.space" },
+  "homepage": "https://cobrain.space",
+  "repository": "https://github.com/alessandromoretti90/cobrain-plugin",
+  "license": "MIT",
+  "keywords": ["memory", "notes", "markdown", "mcp", "knowledge-base"]
+}

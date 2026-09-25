@@ -1,0 +1,17 @@
+{
+  "name": "cobrain",
+  "owner": {
+    "name": "Cobrain",
+    "email": "hi@cobrain.space"
+  },
+  "metadata": {
+    "description": "The official Cobrain plugin for Claude."
+  },
+  "plugins": [
+    {
+      "name": "cobrain",
+      "source": "./",
+      "description": "One memory for all your AIs: a persistent Markdown brain that Claude reads and writes through MCP."
+    }
+  ]
+}
