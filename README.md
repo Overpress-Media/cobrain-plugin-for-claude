@@ -12,7 +12,7 @@ This plugin adds:
 In Claude Code:
 
 ```
-/plugin marketplace add Overpress-Media/cobrain-plugin
+/plugin marketplace add Overpress-Media/cobrain-plugin-for-claude
 /plugin install cobrain@cobrain
 ```
 
