@@ -10,6 +10,7 @@
   "plugins": [
     {
       "name": "cobrain",
+      "displayName": "Cobrain",
       "source": "./",
       "description": "One memory for all your AIs: a persistent Markdown brain that Claude reads and writes through MCP."
     }
