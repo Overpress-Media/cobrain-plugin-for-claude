@@ -1,7 +1,7 @@
 {
   "name": "cobrain",
   "displayName": "Cobrain",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "One memory for all your AIs: a persistent Markdown brain that Claude reads and writes through MCP.",
   "author": {
     "name": "Cobrain",
@@ -12,6 +12,9 @@
   "repository": "https://github.com/Overpress-Media/cobrain-plugin-for-claude",
   "license": "MIT",
   "privacyPolicyUrl": "https://cobrain.space/privacy",
+  "termsOfServiceUrl": "https://cobrain.space/terms",
+  "supportUrl": "https://cobrain.space/contact",
+  "documentationUrl": "https://cobrain.space/guides",
   "keywords": [
     "memory",
     "notes",
