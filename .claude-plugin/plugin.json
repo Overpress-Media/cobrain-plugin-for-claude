@@ -1,7 +1,7 @@
 {
   "name": "cobrain",
   "displayName": "Cobrain",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "One memory for all your AIs: a persistent Markdown brain that Claude reads and writes through MCP.",
   "author": {
     "name": "Cobrain",

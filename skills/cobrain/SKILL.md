@@ -35,4 +35,5 @@ Save what should outlive the conversation as soon as it happens: decisions and w
 
 ## When it fails
 
-If the tools answer with an authorization or connection error, don't retry in a loop. Tell the user the Cobrain connection expired: remove Cobrain from the connectors, add it again (`https://cobrain.space/mcp`) and sign in with the same email. Their notes are safe.
+- **The Cobrain tools are not available at all**: the plugin's connector was never connected on this account. Tell the user to open Customize > Plugins > Cobrain > Connectors and connect Cobrain (in Claude Code: `/mcp`, then authenticate `cobrain`), then start a new conversation.
+- **The tools answer with an authorization or connection error**: don't retry in a loop. The connection expired: disconnect Cobrain in the same Connectors tab, connect it again and sign in with the same email. Their notes are safe.
