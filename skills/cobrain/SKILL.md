@@ -26,6 +26,10 @@ Save what should outlive the conversation as soon as it happens: decisions and w
 - Search before creating: updating the right note is better than a duplicate.
 - `move_file` and `delete_file` change the user's brain for every AI: ask before using them.
 
+## Tidy up (the Dream)
+
+- **The user asks to tidy up, "dream", or pastes the sentence from Cobrain's Dream email or page**: call `dream_tidy_up` (with `saved=true` when the sentence names a saved pre-dream) and follow the steps it returns. Fix the safe things, then ask once before anything that could lose content.
+
 ## Conventions
 
 - Special file names are English in every brain: `_about.md`, `_ai.md`, `decisions.md`, `_templates/`.
