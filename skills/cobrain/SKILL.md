@@ -20,7 +20,8 @@ Cobrain is the user's persistent memory: Markdown notes in folders, shared by ev
 Save what should outlive the conversation as soon as it happens: decisions and why, findings, the status of a task and what to resume.
 
 - **Adding to a note that exists**: `append_file`. It never conflicts and never loses text.
-- **New note**: `write_file`. On an existing note, `write_file` REPLACES the whole content: pass the `base` version you got from `read_file`, and never use it to add a line.
+- **Changing one part of a note**: `patch_file` with the exact `old_text` copied from `read_file` and the `new_text`. Don't rewrite a whole note to change a few lines.
+- **New note**: `write_file`. On an existing note, `write_file` REPLACES the whole content: pass the `base` version you got from `read_file`, and never use it to add or change a line.
 - **Decisions** go at the end of the unit's `decisions.md` with `append_file`. Facts about the unit live in its `_about.md`.
 - **Files** (images, PDFs, logos): `attach_file`.
 - Search before creating: updating the right note is better than a duplicate.
